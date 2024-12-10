@@ -1,0 +1,15 @@
+
+/* Garante que a página ocupe toda a altura da tela */
+html, body {
+    height: 100%;
+}
+
+.content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto; /* Empurra o rodapé para o final */
+}
